@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".studySets"
+    android:background="#FAF9F6">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?actionBarSize"
+        android:background="#5F0101"
+        android:theme="?actionBarTheme">
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:backgroundTint="#800202"
+            android:text="save"
+            android:onClick="saveNote"/>
+
+        <Button
+            android:id="@+id/deleteNoteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:layout_marginStart="100dp"
+            android:backgroundTint="#800202"
+            android:text="Delete"
+            android:onClick="deleteNote"/>
+
+
+    </androidx.appcompat.widget.Toolbar>
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="260dp"
+        android:padding="15dp"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Name of Study Set" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="15dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="77dp">
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#800202"
+        android:textColor="@color/white"
+        android:text="Add Question"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:onClick="newNote"
+        />
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?actionBarSize"
+        android:theme="?actionBarTheme">
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#D53635"
+            app:srcCompat="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#D53635"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+            />
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="@string/speed"
+        android:textSize="16sp" />
+
+    <SeekBar
+        android:id="@+id/sbar"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:progress="50"
+        android:progressTint="#B22221"
+        android:thumbTint="#800202" />
+
+
+</LinearLayout>

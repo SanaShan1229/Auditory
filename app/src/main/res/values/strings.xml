@@ -1,0 +1,25 @@
+<resources>
+    <string name="intro">Welcome! This app is designed to read out your notes or even test you through auditory means to aid in your studying. With a learning disability, while washing the dishes, or even while walking your dog, you can always be studying for that next test or quiz. Just open this app and study away!</string>
+    <string name="cont">CONTINUE</string>
+    <string name="app_name">name</string>
+    <string name="auditory">AUDITORY</string>
+    <string name="quiz">QUIZ</string>
+    <string name="learn">LEARN</string>
+    <string name="stop">STOP</string>
+    <string name="speed">SPEED</string>
+    <string name="pitch">PITCH</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="speak">SPEAK</string>
+    <string name="questions_1">QUESTIONS: 1</string>
+    <string name="scanner">SCANNER</string>
+    <string name="scan">SCAN</string>
+    <string name="copy">COPY</string>
+    <string name="scan_text">SCAN TEXT</string>
+    <string name="save">Save</string>
+    <string name="add_learn_set">Add Learn Set</string>
+    <string name="add_quiz_set">Add Quiz Set</string>
+    <string name="new_question">New Question</string>
+    <string name="enter_the_answer">Enter the Answer</string>
+    <string name="enter_the_question">Enter the Question</string>
+    <string name="answer">\"Answer: \"</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1665" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1665" />
+        <entry key="app/src/main/res/layout/activity_capture.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_chooser.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_cropper.xml" value="0.12006079027355623" />
+        <entry key="app/src/main/res/layout/activity_ex_c.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_ex_l.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_ex_q.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_learn.xml" value="0.1702127659574468" />
+        <entry key="app/src/main/res/layout/activity_learnsave.xml" value="0.20334320068359377" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.27012939453125" />
+        <entry key="app/src/main/res/layout/activity_option.xml" value="0.22645568847656244" />
+        <entry key="app/src/main/res/layout/activity_question.xml" value="0.2760208129882813" />
+        <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.32326965332031243" />
+        <entry key="app/src/main/res/layout/activity_quizsave.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_study_sets.xml" value="0.3032623291015626" />
+        <entry key="app/src/main/res/layout/card.xml" value="0.29241943359375" />
+        <entry key="app/src/main/res/layout/card1.xml" value="0.37324700839277625" />
+        <entry key="app/src/main/res/layout/dialog.xml" value="0.19157608695652173" />
+        <entry key="app/src/main/res/layout/dialog1.xml" value="0.4340410757755888" />
+        <entry key="app/src/main/res/layout/note_cell.xml" value="0.30885416666666665" />
+        <entry key="app/src/main/res/layout/note_cell_three.xml" value="0.37606837606837606" />
+        <entry key="app/src/main/res/layout/notecellthree.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/noteone_cell.xml" value="0.32256469726562503" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22645568847656244" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

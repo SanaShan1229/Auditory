@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/qu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textStyle="bold"
+        android:maxLines="3"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/an"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Answer"
+        android:maxLines="3"
+        android:textSize="10sp">
+
+    </TextView>
+
+
+</LinearLayout>

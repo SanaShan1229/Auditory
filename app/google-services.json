@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "17793008019",
+    "project_id": "auditory-69f4f",
+    "storage_bucket": "auditory-69f4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17793008019:android:a59211e041b7cf4ffba866",
+        "android_client_info": {
+          "package_name": "edu.utd.studyhelper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17793008019-qcnju6542o7pltfc4qp8r4d7a967r7ha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsm5YUF1UPuqR4oPUasB62WrUCFS2v0jE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17793008019-qcnju6542o7pltfc4qp8r4d7a967r7ha.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
