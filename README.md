@@ -1,5 +1,6 @@
 # Auditory
 Auditory is an audio-based studying app designed to help visually impaired students. 
+
 There are three main features:
   - Learn: reiterates personal inputted notes through audio
   - Quiz: reads questions/answers with a 7 second pause in between each question and answer and a 2 second pause between every question
