@@ -15,7 +15,6 @@ Liscense:
 
 How To Access Code:
   - app
-  - release
   - src
   - main
   - java/edu/utd/studyhelper
