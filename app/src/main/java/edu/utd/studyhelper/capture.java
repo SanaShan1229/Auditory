@@ -99,23 +99,29 @@ public class capture extends AppCompatActivity implements View.OnClickListener{
             public void onSuccess(@NonNull Text text) {
                 StringBuilder result = new StringBuilder();
                 //first get blocks, or paragraphs, then individual lines, and then each word
-                for(Text.TextBlock block: text.getTextBlocks())
+                // Iterate through each block
+                for (Text.TextBlock block : text.getTextBlocks()) 
                 {
-                    String blockText = block.getText();
-                    Point[] blockCornerPoint = block.getCornerPoints();
-                    Rect blockFrame = block.getBoundingBox();
-                    for(Text.Line line :block.getLines())
+                    // Iterate through each line within the block
+                    for (Text.Line line : block.getLines()) 
                     {
-                        String lineText = line.getText();
-                        Point[] lineCornerPoints = line.getCornerPoints();
-                        Rect lineRect = line.getBoundingBox();
-                        for(Text.Element element: line.getElements())
+                        // Iterate through each element (word) in the line
+                        for (Text.Element element : line.getElements()) 
                         {
-                            String elementText = element.getText();
-                            result.append(elementText);
+                            // Append the text of the element (word)
+                            result.append(element.getText());
+
+                            // Add a space after each word (except for the last one in a line)
+                            result.append(" ");
                         }
-                        //copy the String to the user's keyboard to paste in the text to speech portion
-                        copyToClipBoard(blockText);
+                // After each line, add a newline to preserve the formatting
+                result.append("\n");
+                    }
+                }
+            }
+
+// Copy the formatted text to the clipboard
+copyToClipBoard(result.toString());
                     }
                 }
             }
