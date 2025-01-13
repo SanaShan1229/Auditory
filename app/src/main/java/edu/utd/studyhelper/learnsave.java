@@ -49,14 +49,19 @@ public class learnsave extends AppCompatActivity {
 
     private void loadFromDBToMemory()
     {
-        if(firstRun)
+        SQLiteManagerOne sqLiteManager = SQLiteManagerOne.instanceOfDatabase(this); // Singleton call to get the instance
+        if (firstRun) 
         {
-            SQLiteManagerOne sqLiteManager = SQLiteManagerOne.instanceOfDatabase(this);
+            firstRun = false;
+            sqLiteManager.close(); 
+            finish();
+        } 
+        else 
+        {
             sqLiteManager.populateNoteListArray();
-            sqLiteManager.close();
+            sqLiteManager.close(); 
             finish();
         }
-        firstRun = false;
     }
 
     private void setNoteAdapter()
